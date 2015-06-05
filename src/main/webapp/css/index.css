@@ -1,3 +1,40 @@
-#message {
-    color:green ;
+#wrapper {
+}
+.sidebar-nav ul {
+    list-style-type: none;
+}
+#page-content-wrapper {
+    background-image: linear-gradient(to bottom,#563d7c 0,#6f5499 100%);
+}
+#invitation {
+    padding: 80px 0;
+    /*background-image: linear-gradient(to bottom,#e76000 0, #8b4300 100%);*/
+    /*background-image: linear-gradient(to bottom,#563d7c 0,#6f5499 100%);*/
+    text-align: center;
+    color: white;
+}
+h3 {
+    padding: 0 150px;
+    line-height: 40px;
+}
+#begin {
+    color: #fff;
+    background-color: transparent;
+    border-color: #cdbfe3;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    width: auto;
+    font-size: 20px;
+}
+#begin:hover {
+    background-color: white;
+    color: #6f5499;
+}
+#whyJava h1 {
+    text-align: center;
+    margin: 30px 0;
+}
+#javaReasons {
+    margin: 0 100px 50px 100px;
+    font-size: 20px;
 }

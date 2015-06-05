@@ -1,25 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Java Learn</title>
+    <meta name="description" content="Туториал, обучение java онлайн и бессплатно!">
+    <meta name="keywords" content="Туториал документация обучение java онлайн бесплатно коллекции">
+    <meta name="author" content="Max Huziv">
+    <title>Обучение java онлайн и бессплатно!</title>
+
+    <link rel="shortcut icon" href="img/java.ico">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/utils.js"></script>
 </head>
+
 <body>
 
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12">
-            <h1>Hello, world!</h1>
-            <pre>&lt;p&gt;Sample text here...&lt;/p&gt;</pre>
+<div id="wrapper">
+
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li>
+                <a href="/">
+                    <img src="img/JavaLogo.jpg" alt="java learn" class="img-rounded img-responsive">
+                </a>
+            </li>
+            <li>
+                <a href="#" data-toggle="collapse" data-target="#java">
+                    Java
+                    <span class="caret"></span>
+                </a>
+                <ul id="java" class="collapse">
+                    <li>
+                        <a href="#" data-toggle="collapse" data-target="#fundamentals">Основы<span class="caret"></span></a>
+                        <ul id="fundamentals" class="collapse">
+                            <li>
+                                <a href="#" id="javaPreparement">
+                                    Настройка среды
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" id="firstProgram">
+                                    Первая прграмма
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Продвинутый уровень</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Spring</a>
+            </li>
+            <li>
+                <a href="#">Hibernate</a>
+            </li>
+            <li>
+                <a href="#" data-toggle="collapse" data-target="#maven">
+                    Maven
+                    <span class="caret"></span>
+                </a>
+                <ul id="maven" class="collapse">
+                    <li>
+                        <a href="#" id="introductionToMaven">Ввод в Maven</a>
+                    </li>
+                    <li>
+                        <a href="#" id="installlingMaven">Установка Maven</a>
+                    </li>
+                    <li>
+                        <a href="#" id="simpleMavenProject">Простой проект на Maven</a>
+                    </li>
+                    <li>
+                        <a href="#" id="customizingMaven">Настройка проекта в Maven</a>
+                    </li>
+                    <li>
+                        <a href="#" id="simpleWebProject">Простой сайт в Maven</a>
+                    </li>
+                    <li>
+                        <a href="#" id="multiModuleProject">Мультимодульный проект</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Git</a>
+            </li>
+            <li>
+                <a href="#">Jenkins</a>
+            </li>
+            <li>
+                <a href="#">Servlets and JSP</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <div id="content">
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="mainContent" class="col-lg-12">
+                        <div id="invitation">
+
+                            <img src="img/javaLogoTransparent.png" alt="java logo" align="middle">
+
+                            <h1>Обучение джава онлайн полностью бессплатно!</h1>
+                            <h3>Добро пожаловать в JavaLearn.ru Интерактивное обучение ждава с уроками и упражнениями.<br/>
+
+                            Если у Вас нет опыта программирования или Вы опытный программист, этот сайт предназначен для
+                                всех, кто хочет выучить язык программирования Java.<br/>
+
+                            Просто нажмите на главе с которой вы хотите начать, и следуйте инструкциям . Удачи!
+                            </h3>
+                            <a href="javascript:;" id="begin" class="btn btn-outline-inverse btn-lg">Начать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+        <div id="whyJava">
+            <h1>Почему джава</h1>
+            <div id="javaReasons">
+                Если Вы начинающий программист и еще не определились с языком программирования наверняка Вы
+                задумываетесь над вопросом - какой язык программирования выбрать. Самым лучшим выбором будет Java,
+                поскольку данный язык обладает рядом приемуществ на другими языками:
+                <ul>
+                    <li>
+                        Не сегодняшний день это самый популярный язык программирования. Введите в гугле -
+                        "популярность языков программирования". И Вы увидете что джава отхватил окло 17% рынка.
+                        Остальные языки берут лишь менее 5% рынка. Что говорит о том что у джава огромнейший отрыв
+                        который врятли догонят в ближайшие годы.
+                    </li>
+                    <li>
+                        4 миллиарда устройст уже запрограммированы на java.
+                    </li>
+                    <li>
+                        Java кросплатформеный язык, написал программу один раз вы можете запустить ее на любом
+                        компьютере где установлена виртуальная машина джава.
+                    </li>
+                    <li>
+                        На джава пишут программы под андроид, который на сегодняшний день занимает наибольшую нишу
+                        для разработки под мобильные устройства.
+                    </li>
+                    <li>
+                        И наконец на у джавистов самые большие зарплаты. Конечно в любом языке программирования все
+                        завистит от знаний конкретного человека и даже есть немного спорная статистика о том что
+                        можно получать больше на программируя на других языках, но в общем как показыает практика -
+                        джава программисты самые высоооплачиваемые
+                        специалисты.
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
+<!-- /#wrapper -->
 </body>
+
 </html>
